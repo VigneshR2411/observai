@@ -1,0 +1,3 @@
+Incident: Checkout endpoint high latency.
+Cause: Downstream payment service connection pool exhausted under load.
+Fix: Increased connection pool size, added circuit breaker with 2s timeout.
